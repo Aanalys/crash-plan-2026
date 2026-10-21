@@ -1,0 +1,16 @@
+# Generated on 2026-11-05
+# Exclude build artifacts
+# See https://github.com/github/linguist
+*.jpeg binary
+
+src/** linguist-detectable
+
+public/**/*.html linguist-vendored
+*.png binary
+
+*.ico binary
+*.html linguist-vendored
+yarn.lock linguist-generated
+Cargo.lock linguist-generated
+build/* linguist-vendored
+src/**/*.tsx linguist-detectable
